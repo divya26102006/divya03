@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query Challenge</title>
+
+  <style>
+   
+       DEFAULT (SMALL SCREENS)
+       Background: RED
+    
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background-color: red;
+      color: white;
+      font-size: 2rem;
+    }
+
+   
+       MEDIUM SCREENS (600px+)
+       Background: BLUE
+    
+    @media (min-width: 600px) {
+      body {
+        background-color: blue;
+      }
+    }
+
+    
+       LARGE SCREENS (900px+)
+       Background: GREEN
+    
+    @media (min-width: 900px) {
+      body {
+        background-color: green;
+      }
+    }
+  </style>
+</head>
+<body>
+  Screen size background change demo
+</body>
+</html>
